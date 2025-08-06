@@ -161,7 +161,7 @@ class DocumentIndexer:
         # Save the vector store
         vector_store = index.vector_store
         if isinstance(vector_store, FaissVectorStore):
-            faiss.write_index(vector_store.faiss_index, str(path / "index.faiss"))
+            faiss.write_index(vector_store._faiss_index, str(path / "index.faiss"))
             
         # Save storage context
         index.storage_context.persist(persist_dir=str(path))
@@ -193,9 +193,9 @@ class DocumentIndexer:
             persist_dir=str(path),
         )
         
-        # Load index
-        index = VectorStoreIndex.from_vector_store(
-            vector_store=vector_store,
+        # Load index from storage
+        from llama_index.core import load_index_from_storage
+        index = load_index_from_storage(
             storage_context=storage_context,
             embed_model=self.embedding_model,
         )
