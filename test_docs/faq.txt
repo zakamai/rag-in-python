@@ -1,0 +1,13 @@
+Frequently Asked Questions about RAG Systems
+
+Q: What is RAG?
+A: RAG stands for Retrieval-Augmented Generation. It's an AI technique that enhances language models by providing them with relevant context retrieved from a knowledge base.
+
+Q: How does vector search work?
+A: Vector search converts documents and queries into high-dimensional vectors (embeddings) that capture semantic meaning. Similar documents have similar vectors, enabling efficient semantic search.
+
+Q: What are the benefits of using FAISS?
+A: FAISS (Facebook AI Similarity Search) provides fast and memory-efficient similarity search. It can handle large-scale vector databases and offers various indexing algorithms optimized for different use cases.
+
+Q: When should I use RAG?
+A: RAG is useful when you need to provide accurate, up-to-date information that may not be in the training data of your language model, or when you want to ground responses in specific knowledge sources.

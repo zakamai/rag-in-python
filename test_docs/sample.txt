@@ -1,0 +1,10 @@
+This is a sample document for testing the RAG system.
+
+RAG (Retrieval-Augmented Generation) is a powerful technique that combines information retrieval with language generation. It works by first retrieving relevant documents from a knowledge base, then using that information to generate more accurate and informative responses.
+
+The key components of a RAG system include:
+1. Document indexing - Converting documents into searchable vector representations
+2. Retrieval - Finding the most relevant documents for a given query
+3. Generation - Using retrieved context to generate responses
+
+This system uses FAISS for efficient vector search and LlamaIndex for document processing.
