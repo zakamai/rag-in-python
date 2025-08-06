@@ -30,7 +30,7 @@ pip install rag-in-python
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/example/rag-in-python.git
+git clone https://github.com/zakamai/rag-in-python.git
 cd rag-in-python
 ```
 
@@ -146,7 +146,7 @@ OPENAI_EMBEDDING_MODEL=text-embedding-ada-002
 
 ```bash
 # Clone the repository
-git clone https://github.com/example/rag-in-python.git
+git clone https://github.com/zakamai/rag-in-python.git
 cd rag-in-python
 
 # Install with development dependencies
@@ -237,9 +237,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/example/rag-in-python/blob/main/README.md)
-- 🐛 [Issue Tracker](https://github.com/example/rag-in-python/issues)
-- 💬 [Discussions](https://github.com/example/rag-in-python/discussions)
+- 📖 [Documentation](https://github.com/zakamai/rag-in-python/blob/main/README.md)
+- 🐛 [Issue Tracker](https://github.com/zakamai/rag-in-python/issues)
+- 💬 [Discussions](https://github.com/zakamai/rag-in-python/discussions)
 
 ---
 
